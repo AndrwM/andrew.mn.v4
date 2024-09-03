@@ -8,7 +8,7 @@
 
   @media #{$bp-lap} { padding: 80px 6vw; }
   @media #{$bp-desk} { padding: 140px 8vw; }
-  @media #{$bp-wide} { padding: 140px 30vw; }
+  @media #{$bp-wide} { padding: 140px 24vw; }
 
   &--header {
     padding-top: 120px;
@@ -35,7 +35,7 @@
 
     @media #{$bp-lap} { padding-left: calc(6vw - $s-xlarge); padding-right: calc(6vw - $s-xlarge); }
     @media #{$bp-desk} { padding-left: calc(8vw - $s-xlarge); padding-right: calc(8vw - $s-xlarge); }
-    @media #{$bp-wide} { padding-left: calc(30vw - $s-xlarge); padding-right: calc(30vw - $s-xlarge); }
+    @media #{$bp-wide} { padding-left: calc(24vw - $s-xlarge); padding-right: calc(24vw - $s-xlarge); }
   }
 
   &--slim {

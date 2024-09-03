@@ -57,6 +57,7 @@
     background-image: url('../../images/avatar-2023-3.jpg');
     background-size: cover;
     background-position: center;
+    mask: url('../../images/avatar-mask-7.svg') center center/100% no-repeat;
 
     border-radius: $border-radius;
     z-index: $z-2;
@@ -64,50 +65,50 @@
     overflow: hidden;
 
     border-radius: $border-radius;
-    margin: 0 0 $s-large 0;
+    // margin: 0 0 $s-small 0;
 
     width: 100%;
-    max-width: 400px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     transform: rotate(1deg);
 
-    &::after {
-      @include theme-var(background-color, c-primary);
+    // &::after {
+    //   @include theme-var(background-color, c-primary);
 
-      background-image: url('../../images/avatar-2023-3.jpg');
-      background-blend-mode: difference;
-      background-size: cover;
-      background-position: center;
-      animation: 16s linear avatar-animate1 infinite;
-      z-index: -1;
+    //   background-image: url('../../images/avatar-2023-3.jpg');
+    //   background-blend-mode: difference;
+    //   background-size: cover;
+    //   background-position: center;
+    //   animation: 16s linear avatar-animate1 infinite;
+    //   z-index: -1;
 
-      content: '';
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      position: absolute;
-      opacity: 0.3;
-    }
+    //   content: '';
+    //   top: 0;
+    //   left: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   position: absolute;
+    //   opacity: 0.3;
+    // }
 
-    &::before {
-      @include theme-var(background-color, c-primary);
+    // &::before {
+    //   @include theme-var(background-color, c-primary);
 
-      background-image: url('../../images/avatar-2023-3.jpg');
-      background-blend-mode: color-dodge;
-      background-size: cover;
-      background-position: center;
-      animation: 16s linear avatar-animate2 infinite;
-      z-index: -1;
+    //   background-image: url('../../images/avatar-2023-3.jpg');
+    //   background-blend-mode: color-dodge;
+    //   background-size: cover;
+    //   background-position: center;
+    //   animation: 16s linear avatar-animate2 infinite;
+    //   z-index: -1;
 
-      content: '';
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      position: absolute;
-      opacity: 0.4;
-    }
+    //   content: '';
+    //   top: 0;
+    //   left: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   position: absolute;
+    //   opacity: 0.4;
+    // }
 
     // @media #{$bp-hand} {
     //   position: fixed;
@@ -121,6 +122,28 @@
     //   width: 120px;
     // }
 
+    @media #{$bp-hand} {
+      position: absolute;
+      top: calc(-60px - 120px);
+      right: -1vw;
+
+      border-radius: $border-radius;
+
+      height: 120px;
+      width: 120px;
+    }
+
+    @media #{$bp-lap} {
+      position: absolute;
+      top: calc(-30px - 190px);
+      right: -1vw;
+
+      border-radius: $border-radius;
+
+      height: 190px;
+      width: 190px;
+    }
+
     @media #{$bp-desk} {
       position: absolute;
       top: calc(-40px - 230px);
@@ -133,6 +156,7 @@
     }
 
     @media #{$bp-wide} {
+      // top: calc(-100px - 230px);
       left: calc(-230px - 40px);
       right: unset;
     }
