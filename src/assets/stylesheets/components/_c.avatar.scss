@@ -53,10 +53,12 @@
 
   .c-avatar__element {
     @include theme-var(background-color, c-background-primary);
+    // @include theme-var(background-color, c-primary);
 
-    background-image: url('../../images/avatar-2023-3.jpg');
+    // background-image: url('../../images/avatar-2023-3.jpg');
     background-size: cover;
     background-position: center;
+    // mask: url('../../images/avatar-mask-7.svg') center center/100% no-repeat;
     mask: url('../../images/avatar-mask-7.svg') center center/100% no-repeat;
 
     border-radius: $border-radius;
@@ -70,26 +72,33 @@
     width: 100%;
     width: 100px;
     height: 100px;
-    transform: rotate(1deg);
+    // padding: 20px;
+    transform: rotate(-5deg);
 
-    // &::after {
-    //   @include theme-var(background-color, c-primary);
+    &::after {
+      // @include theme-var(background-color, c-primary);
 
-    //   background-image: url('../../images/avatar-2023-3.jpg');
-    //   background-blend-mode: difference;
-    //   background-size: cover;
-    //   background-position: center;
-    //   animation: 16s linear avatar-animate1 infinite;
-    //   z-index: -1;
+      background-size: cover;
+      background-position: center;
+      background-image: url('../../images/avatar-2023-3.jpg');
+      mask: url('../../images/avatar-mask-7.svg') center center/100% no-repeat;
 
-    //   content: '';
-    //   top: 0;
-    //   left: 0;
-    //   right: 0;
-    //   bottom: 0;
-    //   position: absolute;
-    //   opacity: 0.3;
-    // }
+      // background-image: url('../../images/avatar-2023-3.jpg');
+      // background-blend-mode: difference;
+      // background-size: cover;
+      // background-position: center;
+      // animation: 16s linear avatar-animate1 infinite;
+      // z-index: -1;
+
+      content: '';
+      top: 10px;
+      left:  10px;
+      right:  10px;
+      bottom:  10px;
+      position: absolute;
+      transform: rotate(5deg);
+      // opacity: 0.3;
+    }
 
     // &::before {
     //   @include theme-var(background-color, c-primary);
