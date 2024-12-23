@@ -52,46 +52,60 @@ const Home = () => (<>
     <HtmlReveal tag="table" className="u-margin-bottom">
       <thead>
         <tr>
-          <th scope="col">Since</th>
           <th scope="col">&nbsp;</th>
-          <th scope="col">Role</th>
+          <th scope="col">&nbsp;</th>
+          <th scope="col">&nbsp;</th>
           {/* <th scope="col"/> */}
           {/* <th scope="col"></th> */}
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th scope="row">2020</th>
-          <td class="u-hide--lap"><span className="c-emoji">🛠</span></td>
+          <th scope="row">
+            2020 &rarr; now
+          </th>
           <td className="no-wrap">Software engineer</td>
+          <td class="u-hide--lap"><span className="c-emoji">🛠</span></td>
           {/* <td>Ruby, Javascript, and Go</td> */}
           {/* <td /> */}
         </tr>
         <tr>
-          <th scope="row">2016</th>
-          <td class="u-hide--lap"><span className="c-emoji">🔩</span></td>
+          <th scope="row">
+            <span class="arrow-up">&uarr;</span>
+            2016
+          </th>
           <td className="no-wrap">Design systems engineer</td>
+          <td class="u-hide--lap"><span className="c-emoji">🔩</span></td>
           {/* <td>Defining and nurturing the first design system, delivered through a collection of frontend packages and ruby gem</td> */}
           {/* <td /> */}
         </tr>
         <tr>
-          <th scope="row">2014</th>
-          <td class="u-hide--lap"><span className="c-emoji">🎛</span></td>
+          <th scope="row">
+            <span class="arrow-up">&uarr;</span>
+            2014
+          </th>
           <td className="no-wrap">Frontend engineer</td>
+          <td class="u-hide--lap"><span className="c-emoji">🎛</span></td>
           {/* <td>Frontend subject matter expert ith emphasis on UI engineering and design systems for web software</td> */}
           {/* <td /> */}
         </tr>
         <tr>
-          <th scope="row">2012</th>
-          <td class="u-hide--lap"><span className="c-emoji">🍒</span></td>
+          <th scope="row">
+            <span class="arrow-up">&uarr;</span>
+            2012
+          </th>
           <td className="no-wrap">UI &amp; product designer</td>
+          <td class="u-hide--lap"><span className="c-emoji">🍒</span></td>
           {/* <td>Frontend subject matter expert ith emphasis on UI engineering and design systems for web software</td> */}
           {/* <td /> */}
         </tr>
         <tr>
-          <th scope="row">2009</th>
-          <td class="u-hide--lap"><span className="c-emoji">🛀</span></td>
+          <th scope="row">
+            <span class="arrow-up">&uarr;</span>
+            2009
+          </th>
           <td className="no-wrap">Advertising web developer</td>
+          <td class="u-hide--lap"><span className="c-emoji">🛀</span></td>
           {/* <td>Advertising</td> */}
           {/* <td /> */}
         </tr>
