@@ -25,7 +25,7 @@ const Home = () => (<>
     </Text>
     <Text type="title" modifier="small" className="u-margin-top">For who?</Text>
     <Text type="paragraph">
-      Currently, I’m a <span className="u-highlight">software engineer at</span> <a href="https://kajabi.com" rel="noopener noreferrer nofollow" target="_blank" className="c-link">Kajabi</a>. I build the learning management system and features like online course builders, media managers, website builders, video conferencing, & online communities.
+      Currently, I’m a <span className="u-highlight">senior software engineer at</span> <a href="https://kajabi.com" rel="noopener noreferrer nofollow" target="_blank" className="c-link">Kajabi</a>. I build the learning management system and features like online course builders, media managers, website builders, video conferencing, & online communities.
     </Text>
     <Text type="title" modifier="small" className="u-margin-top">Working from&hellip;</Text>
     <Text type="paragraph">
