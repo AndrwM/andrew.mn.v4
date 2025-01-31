@@ -62,7 +62,7 @@ const Home = () => (<>
       <tbody>
         <tr>
           <th scope="row">
-            2020 &rarr; now
+            2020 <span className="arrow-left">&larr;</span> present
           </th>
           <td className="no-wrap">Software engineer</td>
           <td class="u-hide--lap"><span className="c-emoji">🛠</span></td>
@@ -71,7 +71,7 @@ const Home = () => (<>
         </tr>
         <tr>
           <th scope="row">
-            <span class="arrow-up">&uarr;</span>
+            <span class="arrow-down">&darr;</span>
             2016
           </th>
           <td className="no-wrap">Design systems engineer</td>
@@ -81,7 +81,7 @@ const Home = () => (<>
         </tr>
         <tr>
           <th scope="row">
-            <span class="arrow-up">&uarr;</span>
+            <span class="arrow-down">&darr;</span>
             2014
           </th>
           <td className="no-wrap">Frontend engineer</td>
@@ -91,7 +91,7 @@ const Home = () => (<>
         </tr>
         <tr>
           <th scope="row">
-            <span class="arrow-up">&uarr;</span>
+            <span class="arrow-down">&darr;</span>
             2012
           </th>
           <td className="no-wrap">UI &amp; product designer</td>
@@ -101,7 +101,7 @@ const Home = () => (<>
         </tr>
         <tr>
           <th scope="row">
-            <span class="arrow-up">&uarr;</span>
+            <span class="arrow-down">&darr;</span>
             2009
           </th>
           <td className="no-wrap">Advertising web developer</td>

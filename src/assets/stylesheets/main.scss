@@ -144,6 +144,7 @@ td, th {
   padding: 1.2vh 0 1.2vh 0;
   border-bottom-style: solid;
   border-bottom-width: 1px;
+  font: 400 16px / 1.4 $ff-monospace;
   @include theme-var(border-bottom-color, c-foreground-transparent);
   // display: block;
   position: relative;
@@ -157,12 +158,14 @@ td, th {
     @media #{$bp-lap} { white-space: nowrap; }
   }
 
-  .arrow-up {
-    // @include theme-var(color, c-primary);
+  .arrow-left {
+    @include theme-var(color, c-foreground-medium);
+  }
+  .arrow-down {
+    @include theme-var(color, c-foreground-medium);
     position: absolute;
-    // opacity: 0.1;
-    // font-size: 80%;
-    top: -10px;
+    // font-size: 120%;
+    top: -14px;
   }
 }
 
