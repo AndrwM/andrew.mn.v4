@@ -42,29 +42,28 @@ const Home = () => (<>
     />
   </div>
   <div className="c-wrapper u-padding-top-large u-padding-bottom-none">
-    <Text type="title" modifier="medium" className="u-margin-top">Open to opportunities</Text>
+    <Text type="title" modifier="large" className="u-margin-top">Open to opportunities</Text>
+    <Text type="title" modifier="small" className="u-margin-top">Experience</Text>
     <Text type="paragraph">
+      As a software engineer and product designer switch&#8209;hitter,
+      I’m most at home in design-lead, cross&#8209;functional software engineering teams.
       As a software engineer and product designer switch&#8209;hitter,
       I’m most at home in design-lead, cross&#8209;functional software engineering teams.
     </Text>
   </div>
-  <div className="c-wrapper c-wrapper--table-bleed u-padding-top-small u-padding-bottom-small">
+  <div className="c-wrapper c-wrapper--table-bleed u-padding-top-small u-padding-bottom-none">
     <HtmlReveal tag="table" className="u-margin-bottom">
-      <thead>
-        <tr>
-          <th scope="col">&nbsp;</th>
-          <th scope="col">&nbsp;</th>
-          <th scope="col">&nbsp;</th>
-          {/* <th scope="col"/> */}
-          {/* <th scope="col"></th> */}
-        </tr>
-      </thead>
       <tbody>
         <tr>
           <th scope="row">
             2020 <span className="arrow-left">&larr;</span> present
           </th>
-          <td className="no-wrap">Software engineer</td>
+          <td>
+            Software engineer
+            <Text type="paragraph" modifier="sans-small" className="u-margin-bottom-none">
+              Written in Ruby, Javascript, and Go
+            </Text>
+          </td>
           <td class="u-hide--lap"><span className="c-emoji">🛠</span></td>
           {/* <td>Ruby, Javascript, and Go</td> */}
           {/* <td /> */}
@@ -74,7 +73,12 @@ const Home = () => (<>
             <span class="arrow-down">&darr;</span>
             2016
           </th>
-          <td className="no-wrap">Design systems engineer</td>
+          <td>
+            Design systems engineer
+            <Text type="paragraph" modifier="sans-small" className="u-margin-bottom-none">
+              Written in Ruby, Javascript, and Go
+            </Text>
+          </td>
           <td class="u-hide--lap"><span className="c-emoji">🔩</span></td>
           {/* <td>Defining and nurturing the first design system, delivered through a collection of frontend packages and ruby gem</td> */}
           {/* <td /> */}
@@ -84,7 +88,12 @@ const Home = () => (<>
             <span class="arrow-down">&darr;</span>
             2014
           </th>
-          <td className="no-wrap">Frontend engineer</td>
+          <td>
+            Frontend engineer
+            <Text type="paragraph" modifier="sans-small" className="u-margin-bottom-none">
+              Written in Ruby, Javascript, and Go
+            </Text>
+          </td>
           <td class="u-hide--lap"><span className="c-emoji">🎛</span></td>
           {/* <td>Frontend subject matter expert ith emphasis on UI engineering and design systems for web software</td> */}
           {/* <td /> */}
@@ -94,7 +103,12 @@ const Home = () => (<>
             <span class="arrow-down">&darr;</span>
             2012
           </th>
-          <td className="no-wrap">UI &amp; product designer</td>
+          <td>
+            UI &amp; product designer
+            <Text type="paragraph" modifier="sans-small" className="u-margin-bottom-none">
+              Written in Ruby, Javascript, and Go
+            </Text>
+          </td>
           <td class="u-hide--lap"><span className="c-emoji">🍒</span></td>
           {/* <td>Frontend subject matter expert ith emphasis on UI engineering and design systems for web software</td> */}
           {/* <td /> */}
@@ -104,7 +118,12 @@ const Home = () => (<>
             <span class="arrow-down">&darr;</span>
             2009
           </th>
-          <td className="no-wrap">Advertising web developer</td>
+          <td>
+            Advertising web developer
+            <Text type="paragraph" modifier="sans-small" className="u-margin-bottom-none">
+              Written in Ruby, Javascript, and Go
+            </Text>
+          </td>
           <td class="u-hide--lap"><span className="c-emoji">🛀</span></td>
           {/* <td>Advertising</td> */}
           {/* <td /> */}
@@ -127,6 +146,15 @@ const Home = () => (<>
         {/* </tr> */}
       </tfoot>
     </HtmlReveal>
+  </div>
+  <div className="c-wrapper u-padding-bottom-small u-padding-top-none">
+    <Text type="title" modifier="small" className="u-margin-top">Experience</Text>
+    <Text type="paragraph">
+      As a software engineer and product designer switch&#8209;hitter,
+      I’m most at home in design-lead, cross&#8209;functional software engineering teams.
+      As a software engineer and product designer switch&#8209;hitter,
+      I’m most at home in design-lead, cross&#8209;functional software engineering teams.
+    </Text>
   </div>
   <div className="c-wrapper u-padding-top-none">
     <Text type="paragraph" className="u-margin-top u-margin-bottom-large">

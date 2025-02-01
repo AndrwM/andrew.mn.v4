@@ -30,12 +30,14 @@ $s-small: 24px;
 $s-regular: 36px;
 $s-large: 54px;
 $s-xlarge: 72px;
+$s-xxlarge: 110px;
 
 //----------------- Theme Colors
 $colors-light: (
   background-blend-mode: luminosity,
   c-background-primary-animation-alternate: #fdebd1,
-  c-background-primary: #e1fdd1,
+  // c-background-primary: #e1fdd1,
+  c-background-primary: #e5f4e4,
   c-background-primary-transparent: rgba(#fcfdd1, 0.9),
   c-background-accent: #fff9f0,
   c-background-accent2: #f3f0ff,
@@ -47,6 +49,7 @@ $colors-light: (
   c-foreground-xlight: #f8fdff,
   c-foreground-light: #4f4744,
   c-foreground-medium: #343f48,
+  c-foreground-dark: #103e67d3,
   c-foreground-focal: #0f150a,
   c-foreground-transparent: rgba(#343f48, 0.1),
 
@@ -70,6 +73,7 @@ $colors-dark: (
   c-foreground-xlight: #f8fdff,
   c-foreground-light: #ffe5d3,
   c-foreground-medium: #f3d8b7,
+  c-foreground-dark: rgba(164, 118, 118, 0.916),
   c-foreground-focal: #f8fdff,
   c-foreground-transparent: rgba(#cab5e3, 0.07),
 

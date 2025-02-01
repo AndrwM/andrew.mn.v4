@@ -169,10 +169,20 @@ td, th {
   }
 }
 
+th {
+  padding-right: 0;
+  box-sizing: border-box;
+  width: 230px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  @include theme-var(border-right-color, c-foreground-transparent);
+  vertical-align: baseline;
+}
+
 tr {
-  border-top-style: solid;
-  border-top-width: 1px;
-  @include theme-var(border-top-color, c-foreground);
+  // border-top-style: solid;
+  // border-top-width: 1px;
+  // @include theme-var(border-top-color, c-foreground);
 
   @media #{$bp-lap} {
     border-top-width: 0;

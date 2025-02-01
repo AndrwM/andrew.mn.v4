@@ -38,13 +38,12 @@
 
 .c-title--large,
 %c-title--large {
-  font: 400 22px / 1.4 $ff-primary;
+  font: 400 22px / 1.4 $ff-display;
   margin: 0 0 $s-tiny;
-  color: #6a5ef5;
-  // color: #508897;
+  @include theme-var(color, c-foreground-focal);
 
   @media #{$bp-lap} {
-    font: 400 38px / 1.4 $ff-primary;
+    font: 400 38px / 1.4 $ff-display;
     .c-title__subtle { font-size: 50%; }
   }
 }

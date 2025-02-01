@@ -57,7 +57,7 @@
   }
 
   &--sans-small {
-    @include theme-var(color, c-foreground-focal);
+    @include theme-var(color, c-foreground-dark);
     font-family: $ff-primary;
     font-size: 14px;
     margin: 0 0 10px;
